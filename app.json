@@ -2,6 +2,7 @@
   "expo": {
     "name": "oge",
     "slug": "oge",
+    "scheme": "oge",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,22 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.pestana.catumbela.oge"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1cad48d9-f654-466c-8d0d-9cc5f6d287ff"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
