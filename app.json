@@ -25,6 +25,7 @@
       "package": "com.pestana.catumbela.oge"
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     },
     "extra": {
